@@ -1,7 +1,16 @@
-
+h2{
+    text-align: center;
+}
 main{
-    font-family: Arial Georgia serif;
-    font-size: 12px;
+    font-size: 16px;
+    width: 600px;
+    border: 1px solid #ABABAB;
+    padding: 10px;
+    margin: auto;
+}
+
+section{
+    margin: 20px 0 0 0;
 }
 
 .full-width{
@@ -15,6 +24,7 @@ main{
 
 .translation-area{
     position: relative;
+    padding: 10px;
 }
 
 .translation-area > span{
@@ -25,16 +35,16 @@ main{
 }
 
 .linear {
-    transition: all 1s linear 0s;
+    transition: left 0.5s linear, background-color 0.5s linear, transform 0.5s linear;
 }
 .ease-in {
-    transition: all 1s ease-in 0s;
+    transition: left 0.5s ease-in, background-color 0.5s ease-in, transform 0.5s ease-in;
 }
 .ease-out {
-    transition: all 1s ease-out 0s;
+    transition: left 0.5s ease-out, background-color 0.5s ease-out, transform 0.5s ease-out;
 }
 .ease-in-out {
-    transition: all 1s ease-in-out 0s;
+    transition: left 0.5s ease-in-out, background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .standard-position{
@@ -42,6 +52,7 @@ main{
 }
 
 .standard-position.translated{
-    left: calc(100% - 50px);
-    background: #FF1212;
+    left: calc(100% - 70px);
+    transform: rotate(90deg);
+    background-color: #FF1212;
 }
