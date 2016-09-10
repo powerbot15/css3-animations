@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+}
+main{
+    font-size: 16px;
+    width: 600px;
+    border: 1px solid #ABABAB;
+    padding: 10px;
+    margin: auto;
+}
+
+section{
+    margin: 20px 0 0 0;
+}
+
+.full-width{
+    width: 100%;
+    margin: 0;
+}
+
+.height-100{
+    height: 50px;
+}
+
+.translation-area{
+    position: relative;
+    padding: 10px;
+}
+
+

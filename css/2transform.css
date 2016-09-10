@@ -1,0 +1,27 @@
+.translation-area > span{
+    position: absolute;
+    width: 50px;
+    height:50px;
+    background: #1213AB;
+    transition: all 0.3s linear;
+}
+
+.translation-area > span.underground{
+    background: #00AA00;
+}
+
+.translation-area:hover .scale{
+    transform: scale(1.5);
+}
+
+.translation-area:hover .translate-x{
+    transform: translateX(105%);
+}
+
+.translation-area:hover .translate-y{
+    transform: translateY(-105%);
+}
+
+.translation-area:hover .translate-rotate{
+    transform: translateX(105%) rotate(90deg);
+}
