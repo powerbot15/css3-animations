@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    display: inline-block;
+    width : 25%;
+    height: 150px;
+    margin: 15px;
+    perspective: 500px;
+
+}
+li div{
+    width: 100%;
+    height: 100%;
+}
+
+li > div{
+    position: relative;
+    transition: all 0.3s linear;
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+}
+
+li:hover > div {
+    transform: rotateY(180deg);
+}
+
+li > div > div{
+    position: absolute;
+
+}
+
+.underground{
+    background: yellow;
+    transform: rotateY(180deg);
+}
+
+.foreground{
+    background: green;
+}
