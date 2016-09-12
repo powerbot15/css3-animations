@@ -21,7 +21,10 @@
 .translation-area:hover .translate-y{
     transform: translateY(-105%);
 }
-
+.translation-area .translate-rotate{
+    transform-origin: 0 0;
+}
 .translation-area:hover .translate-rotate{
-    transform: translateX(105%) rotate(90deg);
+    /*transform: translateX(105%) rotate(90deg);*/
+    transform: rotate(90deg);
 }
